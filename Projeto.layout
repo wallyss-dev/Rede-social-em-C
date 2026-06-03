@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout>
+	<Files>
+		<File Name="usuario.c" Top="Yes" Tabpos="1" TopLine="1">
+			<Cursor Line="19" Column="2"/>
+		</File>
+		<File Name="usuario.h" Top="No" Tabpos="2" TopLine="1">
+			<Cursor Line="16" Column="7"/>
+		</File>
+		<File Name="rede.h" Top="No" Tabpos="3" TopLine="1">
+			<Cursor Line="15" Column="1"/>
+		</File>
+		<File Name="rede.c" Top="No" Tabpos="4" TopLine="1">
+			<Cursor Line="4" Column="1"/>
+		</File>
+		<File Name="main.c" Top="No" Tabpos="5" TopLine="1">
+			<Cursor Line="53" Column="2"/>
+		</File>
+	</Files>
+</Layout>
