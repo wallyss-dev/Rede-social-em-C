@@ -6,6 +6,9 @@ int main() {
     int total_usuarios = 0; 
     int escolha; 
     
+    /* Executa o carregamento inicial buscando o estado persistido nos arquivos */
+    carregarRede(rede, &total_usuarios);
+    
     do {
         printf("\n====================================\n");
         printf("     == MINI FACEBOOK ==            \n");
@@ -41,6 +44,8 @@ int main() {
             listarAmigosDoUsuario(rede, total_usuarios); 
             
         } else if (escolha == 7) {
+            /* Garante o salvamento antes de encerrar o escopo de execução */
+            salvarRede(rede, total_usuarios);
             printf("\n[Encerrando o sistema......]\n");
             
         } else {
