@@ -19,4 +19,4 @@ O código-fonte é rigorosamente segmentado em módulos independentes para garan
 Para compilar o ecossistema de arquivos de forma otimizada e com checagem estrita de integridade de código através do compilador GCC, execute o comando abaixo no terminal de sua preferência:
 
 ```bash
-gcc -Wall -Wextra -O2 main.c rede.c usuario.c -o mini_facebook
+gcc -Wall -Wextra -O2 -std=c99 main.c rede.c usuario.c -o mini_facebook
