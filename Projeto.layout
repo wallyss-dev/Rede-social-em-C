@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout>
 	<Files>
-		<File Name="usuario.h" Top="Yes" Tabpos="1" TopLine="1">
+		<File Name="usuario.h" Top="No" Tabpos="1" TopLine="1">
 			<Cursor Line="22" Column="7"/>
 		</File>
 		<File Name="usuario.c" Top="No" Tabpos="2" TopLine="1">
@@ -13,7 +13,7 @@
 		<File Name="rede.c" Top="No" Tabpos="4" TopLine="249">
 			<Cursor Line="258" Column="2"/>
 		</File>
-		<File Name="main.c" Top="No" Tabpos="5" TopLine="4">
+		<File Name="main.c" Top="Yes" Tabpos="5" TopLine="4">
 			<Cursor Line="51" Column="17"/>
 		</File>
 	</Files>
